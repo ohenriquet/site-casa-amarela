@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #fad02c;
 }
 
 p {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #fad02c;
 }
 
 a:hover,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #fad02c;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fad02c;
 }
 
 .btn-primary:hover,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fad02c;
+    background-color: #fad02c;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #fad02c;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #fad02c;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fad02c;
 }
 
 .btn-xl:hover,
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fad02c;
+    background-color: #fad02c;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #fad02c;
     background-color: #fff;
 }
 
@@ -175,8 +175,16 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
+    background-image: url('../img/logos/Logo\ Casa\ Amarela\ transparente.png'); /* Adicione o caminho para sua imagem de logo */
+    display: inline-block; /* Necessário para ajustar a altura e largura */
+    max-width: 22wh;
+    width: 230px; /* Ajuste para o tamanho da sua imagem */
+    height: 50px; /* Ajuste para o tamanho da sua imagem */
+    background-size: contain; /* Garante que a logo se ajuste dentro do espaço dado */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    text-indent: -9999px; /* Esconde o texto */
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #fad02c;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -191,8 +199,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fad02c;
+    background-color: #fad02c;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #fad02c;
 }
 
 .navbar-default .nav li a {
@@ -215,13 +223,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #fad02c;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fad02cd1;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -264,15 +272,17 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
+                url(../img/DALL·E\ 2023-12-28\ 15.47.33\ -\ A\ charming\ and\ colorful\ yellow\ village\ house\ in\ the\ colonial\ style\ of\ Olinda\,\ Brazil\,\ with\ a\ warm\ and\ inviting\ atmosphere.\ The\ house\ is\ modest\ yet\ pic.png);
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 header .intro-text {
     padding-top: 100px;
@@ -493,7 +503,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fad02c;
 }
 
 .timeline>li .timeline-image h4 {
@@ -653,7 +663,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(../img/DALL·E\ 2023-12-29\ 10.55.18\ -\ A\ cozy\ and\ inviting\ living\ room\ inside\ a\ colonial-style\ yellow\ village\ house\,\ similar\ to\ the\ one\ in\ Olinda\,\ Brazil.\ The\ room\ features\ rustic\,\ yet\ eleg.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -680,7 +690,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #fad02c;
     box-shadow: none;
 }
 
@@ -758,7 +768,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #fad02c;
 }
 
 .btn:focus,
@@ -846,12 +856,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #fad02c;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #fad02c;
 }
 
 img::selection {
@@ -863,5 +873,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #fad02c;
 }

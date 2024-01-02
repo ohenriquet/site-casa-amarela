@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fad02cd1;
+    background-color: #fad02c;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -291,9 +291,9 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato";
     font-size: 22px;
-    font-style: italic;
+    font-style: normal;
     line-height: 22px;
 }
 
@@ -314,9 +314,9 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Lato";
         font-size: 40px;
-        font-style: italic;
+        font-style: normal;
         line-height: 40px;
     }
 
@@ -343,10 +343,11 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
     font-weight: 400;
+    line-height: 26px;
 }
 
 @media(min-width:768px) {

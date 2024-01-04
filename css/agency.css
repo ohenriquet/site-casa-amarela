@@ -178,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    background-image: url('../img/logos/Logo\ Casa\ Amarela\ transparente.png'); /* Adicione o caminho para sua imagem de logo */
+    background-image: url('../img/Logo\ Casa\ Amarela\ transparente.webp'); /* Adicione o caminho para sua imagem de logo */
     display: inline-block; /* Necessário para ajustar a altura e largura */
     max-width: 22wh;
     width: 230px; /* Ajuste para o tamanho da sua imagem */
@@ -276,7 +276,7 @@ header {
     text-align: center;
     color: #fff;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
-                url(../img/DALL·E\ 2023-12-28\ 15.47.33\ -\ A\ charming\ and\ colorful\ yellow\ village\ house\ in\ the\ colonial\ style\ of\ Olinda\,\ Brazil\,\ with\ a\ warm\ and\ inviting\ atmosphere.\ The\ house\ is\ modest\ yet\ pic.png);
+                url(../img/hero.webp);
     background-attachment: scroll;
     background-position: center center;
     background-repeat: no-repeat;
@@ -667,7 +667,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(../img/DALL·E\ 2023-12-29\ 10.55.18\ -\ A\ cozy\ and\ inviting\ living\ room\ inside\ a\ colonial-style\ yellow\ village\ house\,\ similar\ to\ the\ one\ in\ Olinda\,\ Brazil.\ The\ room\ features\ rustic\,\ yet\ eleg.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(../img/footer.webp);
     background-position: center;
     background-repeat: no-repeat;
 }

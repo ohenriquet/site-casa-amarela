@@ -19,7 +19,7 @@ $message = $_POST['message'];
 $to = 'ohenriquet@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "FORMULARIO DE CONTATO:  $name";
 $email_body = "Nova mensagem de contato.\n\n"."Informações:\n\nNome: $name\n\nEmail: $email_address\n\nTelefone: $phone\n\nMensagem:\n$message";
-$headers = "From: noreply@casaamarela.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "From: noreply@agenciacasaamarela.com.br\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			

@@ -1,0 +1,39 @@
+/* styles.css */
+
+.language-picker {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .language-picker button {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .language-picker form {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .language-picker[aria-expanded="true"] form {
+    display: block;
+  }
+  
+  .language-picker select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+  }
+  

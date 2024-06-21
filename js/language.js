@@ -155,7 +155,12 @@ Util.getIndexInArray = function(array, el) {
 	function getLanguageUrl(option) {
 		// ⚠️ Important: You should replace this return value with the real link to your website in the selected language
 		// option.value gives you the value of the language that you can use to create your real url (e.g, 'english' or 'italiano')
-		return 'https://agenciacasaamarela.com.br/';
+
+        if (option.value === 'english') {
+          return 'https://agenciacasaamarela.com.br/en';
+        } else {
+          return 'https://agenciacasaamarela.com.br/'; // Default to base URL for Portuguese or other languages
+        }
 	};
 
 	function initLanguageSelection(picker) {
@@ -167,15 +172,16 @@ Util.getIndexInArray = function(array, el) {
 				// selecting the same language
 				event.preventDefault();
 				picker.trigger.setAttribute('aria-expanded', 'false'); // hide dropdown
-			} else { 
+			}
+            else { 
 				// ⚠️ Important: this 'else' code needs to be removed in production. 
 				// The user has to be redirected to the new url -> nothing to do here
-				event.preventDefault();
-				picker.element.getElementsByClassName('language-picker__list')[0].querySelector('[aria-selected="true"]').removeAttribute('aria-selected');
-				language.setAttribute('aria-selected', 'true');
-				picker.trigger.getElementsByClassName('language-picker__label')[0].setAttribute('class', 'language-picker__label language-picker__flag language-picker__flag--'+language.getAttribute('data-value'));
-				picker.trigger.getElementsByClassName('language-picker__label')[0].getElementsByTagName('em')[0].textContent = language.textContent;
-				picker.trigger.setAttribute('aria-expanded', 'false');
+				// event.preventDefault();
+				// picker.element.getElementsByClassName('language-picker__list')[0].querySelector('[aria-selected="true"]').removeAttribute('aria-selected');
+				// language.setAttribute('aria-selected', 'true');
+				// picker.trigger.getElementsByClassName('language-picker__label')[0].setAttribute('class', 'language-picker__label language-picker__flag language-picker__flag--'+language.getAttribute('data-value'));
+				// picker.trigger.getElementsByClassName('language-picker__label')[0].getElementsByTagName('em')[0].textContent = language.textContent;
+				// picker.trigger.setAttribute('aria-expanded', 'false');
 			}
 		});
 	};
